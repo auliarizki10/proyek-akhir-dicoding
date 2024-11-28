@@ -1,0 +1,163 @@
+.judul {
+    background-color: #C0C78C;
+    color: white;
+    padding: 30px 0; 
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.nav {
+    background-color: #A6B37D;
+    padding: 10px 0;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px; 
+    font-weight: bold; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav ul li a:hover {
+    background-color: white; 
+    color: #333; 
+}
+
+.intro-text {
+    background-color: #FEFAE0; 
+    color: #333; 
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+    line-height: 1.6; 
+    margin: 20px auto;
+    border-radius: 8px; 
+    width: 90%; 
+    max-width: 800px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0; 
+    padding: 20px;
+    max-width: 800px;
+}
+
+.religion-article {
+    background-color: white;
+    margin: 10px 0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    text-align: center;
+}
+
+.religion-article img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.religion-description {
+    font-size: 16px; 
+    font-weight: 600; 
+    line-height: 1.6; 
+    padding: 15px 0; 
+    color: #333; 
+    max-width: 80%; 
+    margin: 0 auto; 
+    text-align: justify; 
+}
+
+.religion-details {
+    list-style: none; 
+    padding: 0; 
+    font-size: 16px; 
+    color: #333; 
+    line-height: 1.6; 
+    font-weight: 500; 
+    text-align: left; 
+    margin: 10px 0; 
+    
+}
+
+.religion-details li::before {
+    content: "• "; 
+    color: rgb(131, 80, 22); 
+    margin-right: 10px; 
+}
+
+aside {
+    width: 28%; 
+    background-color: #e4deaa;
+    padding-left: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif; 
+    font-size: 16px; 
+    font-weight: bold; 
+    position: absolute; 
+    top: 30; 
+    right: 0; 
+    width: 28%;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.footer {
+    text-align: center;
+    background-color: #C0C78C;
+    color: white;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+    box-sizing: border-box; 
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%; 
+        padding: 0 10px; 
+    }
+}
+
+
